@@ -8,4 +8,11 @@ Computational models generally approximate the motion of multiple bodies but hav
 
 While ML models are already in the works to predict the motion of an object under the gravity of multiple bodies, their accuracy when trained on or exposed to noisy input data is unknown. Our ML models predict satellite trajectories in low Earth orbit with high accuracy after learning from simulated data. When trained with noise to imitate real-world data, each model still accurately predicts spacecraft orbits under the gravitational pull of numerous bodies, but fails to filter out noise in input data.
 
-We used a standard computational model, using a runge-kutta solver to generate training data. We used newtonian mechanics, taking into account the gravitational pulls of Earth, the Moon, the Sun, and Jupiter.
+![presentation slide 4](images/slide4.jpg)
+![presentation slide 21](images/slide21.jpg)
+
+Methods:
+
+We used a standard computational model, using a runge-kutta solver to generate training data. We then trained a neural network to predict the position and velocity of a satellite a certain time interval after a given inital position and velocity.
+
+We then t
