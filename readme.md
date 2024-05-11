@@ -14,5 +14,3 @@ While ML models are already in the works to predict the motion of an object unde
 Methods:
 
 We used a standard computational model, using a runge-kutta solver to generate training data. We then trained a neural network to predict the position and velocity of a satellite a certain time interval after a given inital position and velocity.
-
-We then t
